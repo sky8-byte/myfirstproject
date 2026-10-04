@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.site-navigation {
+    text-align: center;
+    background-color: transparent; 
+    padding: 15px;
+}
+.site-navigation a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;                     
+    margin: 0 8px;                         
+    border-radius: 20px;                  
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+.site-navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+header, .main-header, .third-header {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+header h1 img {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 280px;
+    height: auto;
+}

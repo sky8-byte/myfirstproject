@@ -1,0 +1,121 @@
+.third-header img {
+    border-radius: 20px;
+}
+.back-to-top-container {
+    text-align: center; 
+    margin: 40px 0; 
+    padding: 20px 0 20px 0;
+}
+.back-to-top {
+    text-decoration: none;
+    color: #f33030;
+    font-weight: bold;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.back-to-top:hover {
+    background-color: rgb(150, 190, 225);
+}
+body.third-page {
+    background-image: url('images/2e71021c7cc846c4c08a86fc4154235a.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+article.article-four {
+    background-color: rgba(1, 44, 151, 0.75);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 20px 15px 20px;
+    color: #f8f9fa;
+}
+article.article-five {
+    background-color: rgba(1, 44, 151, 0.75);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 20px 15px 20px;
+    color: #f8f9fa;
+}
+article.article-six {
+    background-color: rgba(1, 44, 151, 0.75);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 20px 15px 20px;
+    color: #f8f9fa;
+}
+article.meet-ed {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(60, 118, 205, 0.75);
+    color: #f8f9fa;
+    border-radius: 20px; 
+    padding: 15px; 
+    margin: 20px 40px 20px 20px;
+    font-size: small;
+    max-width: 500px;
+}
+article.meet-ed img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 0 50px 0 50px;
+    padding-left: 20px
+}
+article.meet-edd {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(60, 118, 205, 0.75);
+    color: #f8f9fa;
+    border-radius: 20px; 
+    padding: 15px; 
+    margin: 20px 40px 20px 20px;
+    font-size: small;
+    max-width: 500px;
+}
+article.meet-edd img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 50px 0 50px 0;
+    padding-left: 20px
+}
+article.meet-eddy {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(60, 118, 205, 0.75);
+    color: #f8f9fa;
+    border-radius: 20px; 
+    padding: 15px; 
+    margin: 20px 40px 20px 20px;
+    font-size: small;
+    max-width: 500px;
+}
+article.meet-eddy img {
+    max-width: 160px;
+    height: auto;
+    border-radius: 0 50px 0 50px;
+    padding-left: 20px
+}
+.footer {
+    background-color: rgb(242, 241, 248);
+    color: rgb(2, 2, 2);
+    text-align: center;
+    border-radius: 20px;
+}
+@media (max-width: 768px) {
+    .meet-ed,
+    .meet-edd,
+    .meet-eddy {
+        width: 90%;
+        max-width: 450px;
+        margin: 15px auto;
+    }
+}
